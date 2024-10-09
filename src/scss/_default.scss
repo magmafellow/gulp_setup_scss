@@ -1,0 +1,33 @@
+html {
+  background-color: #0e0e0e;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 300px;
+  width: 500px;
+  background-color: rgb(42, 109, 42);
+  border-radius: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 49px;
+  color: rgb(21, 21, 137);
+  font-weight: 500;
+  transition: 0.17s;
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(50, 50, 194);
+  }
+  &:active {
+    background-color: rgb(54, 126, 54);
+    color:rgb(144, 18, 18);
+    outline: 1em solid #7b9b74;
+  }
+}
